@@ -47,7 +47,7 @@ pair<Point,Point> closestPairRec(Point* Px, Point* Py, int n) {
 
     double d = delta;
     for(int i=0;i<(int)Sy.size();i++)
-        for(int j=i+1;j<(int)Sy.size() && j<=i+15;j++) {
+        for(int j=i+1;j<(int)Sy.size() && j<=i+8;j++) {
             double cur = dist(Sy[i], Sy[j]);
             if(cur < d) {
                 d = cur;
