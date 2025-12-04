@@ -18,5 +18,7 @@ generate_dataset('dataset-100points.txt', 100)
 generate_dataset('dataset-500points.txt', 500)
 generate_dataset('dataset-1000points.txt', 1000)
 generate_dataset('dataset-10000points.txt', 10000)
+generate_dataset('dataset-100000points.txt', 100000)
+generate_dataset('dataset-1000000points.txt', 1000000)
 
 print("All datasets generated successfully!")
